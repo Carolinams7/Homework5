@@ -21,6 +21,10 @@ Live version:
 
 https://carolinams7.github.io/Workscheduler/
 
+### Dev Dependencies
+
+- Moment.js
+
 ### Tech/Framework used
 
 - Ajax
