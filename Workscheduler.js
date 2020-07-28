@@ -102,6 +102,7 @@ if (localStorage.getItem('availableHours')) {
 }
 
 //set value of availableHours to equal the user input for each row
+
 $('.time-block').each(function() {
   $(this).find('.text-area').val(availableHours[$(this).attr('data-time')].value);
 });
