@@ -120,6 +120,7 @@ $('.save-button').on('click', function(event){
   
     var textValue = $(this).closest('.time-block').find('.text-area').val();
     availableHours[timeValue].value = textValue;
+  
   //save user input in each object to local storage
     localStorage.setItem('availableHours', JSON.stringify(availableHours));
 });
