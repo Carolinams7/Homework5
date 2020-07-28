@@ -23,8 +23,10 @@ https://carolinams7.github.io/Workscheduler/
 
 ### Tech/Framework used
 
+- Ajax
+- JQuery
 - JS
-- CSS
+- Bootstrap
 
 ## Author
 
