@@ -108,6 +108,7 @@ $('.time-block').each(function() {
 });
 
 //save value to local storage on click
+
 $('.save-button').on('click', function(event){
   event.preventDefault();
 
