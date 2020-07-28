@@ -113,6 +113,7 @@ $('.save-button').on('click', function(event){
   event.preventDefault();
 
   //set availableHours time attribute
+  
   var timeValue = $(this).closest('.time-block').attr('data-time');
 
   //set availableHours value attribute
