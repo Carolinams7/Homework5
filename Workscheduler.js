@@ -37,6 +37,7 @@ for (var hour = 9; hour < 18; hour++) {
 }
 
 //Checking time to determine present, past, or future
+
 $.each($('.time-block'), function(index, value) {
   let dateHour = $(value).attr('data-time');
   if (Number(dateHour) === m.hour()) {
