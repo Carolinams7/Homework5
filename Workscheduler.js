@@ -122,6 +122,7 @@ $('.save-button').on('click', function(event){
     availableHours[timeValue].value = textValue;
   
   //save user input in each object to local storage
+  
     localStorage.setItem('availableHours', JSON.stringify(availableHours));
 });
 
