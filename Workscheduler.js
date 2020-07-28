@@ -14,6 +14,7 @@ function clock() {
 setInterval(clock, 1000);
 
 //generating textareas for scheduling
+
 for (var hour = 9; hour < 18; hour++) {
   scheduledHours.push(moment({hour}).format('h  a'));
   $('.container').append(`<div class='row time-block' data-time='${hour}'>
